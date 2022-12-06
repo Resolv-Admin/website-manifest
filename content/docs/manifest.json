@@ -1,0 +1,48 @@
+{
+  "routes": [
+    {
+      "title": "Docs",
+      "keywords": "docs, doc, documentation, getting started, nextui",
+      "subtitle": "For an advanced search,0 use the search input.",
+      "icon": "note",
+      "section": "Scope",
+      "heading": true,
+      "routes": [
+        {
+          "title": "Getting Started",
+          "open": true,
+          "keywords": "guide, getting started, start, nextui",
+          "icon": "/paper.svg",
+          "routes": [
+            {
+              "title": "Welcome",
+              "keywords": "getting started, start, resolv, welcome",
+              "path": "/docs/guide/getting-started.mdx"
+            },
+            {
+              "title": "Support Options",
+              "keywords": "support, help, resolv",
+              "path": "/docs/guide/support-options.mdx"
+            }
+          ]
+        },
+        {
+          "title": "Guides",
+          "keywords": "themeable, theme, customize, palette",
+          "icon": "/category.svg",
+          "open": true,
+          "routes": [
+            {
+              "title": "Using Resolv",
+              "path": "/docs/using-resolv/guide.mdx"
+            },
+            {
+              "title": "Some guide",
+              "path": "/docs/guide/getting-started.mdx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
